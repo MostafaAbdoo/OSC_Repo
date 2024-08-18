@@ -1,5 +1,5 @@
-get config --global user.name "MostafaAbdoo"
-get config --global user.email "abu7582004@gamil.com"
+git config --global user.name "MostafaAbdoo"
+git config --global user.email "abu7582004@gamil.com"
 gh auth login -w -p https
 git clone https://github.com/MostafaAbdoo/OSC_Repo
 cd OSC_Repo
@@ -10,6 +10,7 @@ echo "hello world" >> greeting.txt
 git add *
 git commit -m"Added greeting"
 git branch intro
+git checkout intro
 echo "I love git" >> greeting.txt
 git add *
 git commit -m"Added I love git"
